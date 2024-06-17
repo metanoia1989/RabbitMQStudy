@@ -1,0 +1,17 @@
+{
+    "name": "metanoia/rabbitmq-php",
+    "autoload": {
+        "psr-4": {
+            "Metanoia\\RabbitmqPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adam Smith",
+            "email": "sogaixli@gmail.com"
+        }
+    ],
+    "require": {
+        "php-amqplib/php-amqplib": "^3.6"
+    }
+}
